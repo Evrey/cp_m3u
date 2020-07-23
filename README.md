@@ -20,6 +20,7 @@ Run `cp_m3u --help` in a [Fish shell](https://fishshell.com/) for a short list o
   cp_m3u -o path/to/out_dir path/to/playlist.m3u
   cp_m3u --out_dir=path/to/out_dir path/to/playlist.m3u
   ```
+  If the directory does not exist, it will be created. *Not* recursively, though.
 - To convert your audio files from FLAC to MP3 while copying, run:
   ```fish
   cp_m3u -m path/to/playlist.m3u
