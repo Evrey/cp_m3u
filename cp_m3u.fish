@@ -3,10 +3,8 @@
 function cp_m3u --description 'copy music from an M3U playlist'
     function is_valid_out_dir --no-scope-shadowing
         test -d $_flag_value
-        and begin
-            test -e $_flag_value
-            or mkdir -v $_flag_value
-        end
+        and test -e $_flag_value
+        or mkdir -v $_flag_value
         or begin
             echo "`"$_flag_value"` is not a directory"
             false
