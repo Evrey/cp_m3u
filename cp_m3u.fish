@@ -30,7 +30,7 @@ function cp_m3u --description 'copy music from an M3U playlist'
 cp_m3u [OPTIONS] PLAYLIST...\n\
 \n\
   -h --help        : Print this message.\n\
-  -o --out-dir=DIR : Copy music to `DIR`. `CWD` if not specified.\n\
+  -o --out_dir=DIR : Copy music to `DIR`. `CWD` if not specified.\n\
   -m --flac_to_mp3 : Convert FLAC files to MP3 files.\n\
 \n\
 The command line tool `ffmpeg` needs to be installed to convert\n\
